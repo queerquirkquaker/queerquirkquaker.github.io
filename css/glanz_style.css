@@ -1287,6 +1287,7 @@ label.error{
 	max-width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+	white-space: nowrap;
 }
 .gla_section_sml_padding .gla_icon_box, 
 .gla_section_sml_padding .gla_anim_box {
