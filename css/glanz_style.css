@@ -1779,11 +1779,12 @@ ul.mega-menu {
 		}
 	
 		.gla_logo {
-			font:900 24px/18px Dosis, Arial;
-			color:#333;
+			/*font:900 24px/18px Dosis, Arial;*/
+			font: 400 25px Playfair Display, Arial;
+			color: #333;
 			text-transform: uppercase;
 			position: relative;
-			top: 22px;
+			top: 15px;
 			-webkit-transition: all 0.3s;
 			-o-transition: all 0.3s;
 			transition: all 0.3s;
@@ -1818,7 +1819,7 @@ ul.mega-menu {
 			}
 		.gla_logo b {
 			display: block;
-			font:500 12px/18px Dosis, Arial;
+			font: 500 12px/18px Dosis, Arial;
 			position: relative;
 			-webkit-transition: all 0.2s;
 			-o-transition: all 0.2s;
@@ -1840,7 +1841,7 @@ ul.mega-menu {
 		.gla_logo span {
 			position: relative;
 			display: inline-block;
-			transition:1s all;
+			transition: 1s all;
 			min-width: 5px;
 		}
 	
@@ -2030,7 +2031,7 @@ ul.mega-menu {
 					padding: 13px 20px;
 				}
 			.gla_second_step .gla_logo {
-				top: 18px;
+				top: 8px;
 				
 			}
 			.gla_logo_und {
@@ -2042,7 +2043,7 @@ ul.mega-menu {
 				text-transform: none;
 				font-weight:bold;
 				font: italic 400 14px/24px Playfair Display, Arial;
-				top: 18px;
+				top: 10px;
 			}
 			.gla_second_step .gla_logo_und {
 				opacity: 0;
@@ -3067,8 +3068,8 @@ ul.mega-menu {
 	z-index: 1;
 	top: 0;
 	margin: -130px 0 0 -125px;
-	-webkit-animation: flower_rotate 125s infinite linear;
-  animation: flower_rotate 125s infinite linear;
+	-webkit-animation: flower_rotate 70s infinite linear;
+  animation: flower_rotate 70s infinite linear;
   -webkit-transform-origin: 51% 52%;
   -moz-transform-origin: 51% 52%;
   -ms-transform-origin: 51% 52%;
@@ -3088,8 +3089,8 @@ ul.mega-menu {
 	z-index: 1;
 	top: 0;
 	margin: -60px 0 0 -55px;
-	-webkit-animation: flower_rotate 425s infinite linear;
-  animation: flower_rotate 425s infinite linear;
+	-webkit-animation: flower_rotate 250s infinite linear;
+  animation: flower_rotate 250s infinite linear;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -3199,7 +3200,7 @@ ul.mega-menu {
 		border-radius: 50%;
 	}
 .gla_nimated_flower {
-	-webkit-transition-delay: 0.3s;
+	-webkit-transition-delay: 0.1s;
 	-o-transition-delay: 0.3s;
 	transition-delay: 0.3s;
 }
@@ -6250,6 +6251,7 @@ header nav.active .gla_logo {
 	}
 }
 /*Responsive end*/
+
 
 
 
